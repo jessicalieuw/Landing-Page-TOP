@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 8px 75px;
+    color: #90c0e2;
+    font-size: 24px;
+}
+.header_links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: #90c0e2;
+}
+.container_1 {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 75px;
+    margin: 0;
+    gap: 50px;
+
+}
+.container_1_text {
+    display: flex;
+    flex-direction: column;
+    color: #90c0e2;
+}
+.main_image {
+    max-width: 500px;
+    min-width: 100px;
+    height: auto;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: #90c0e2;
+}
+.container_1 button {
+    width: 70px;
+    background-color: #227fc2;
+    color: white;
+    border: none;
+    padding: 2px;
+    border-radius: 10%;
+}
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    font-family: roboto, arial, Times New Roman;
+}
+
+.container_2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    flex: 1 1 20%;
+    padding: 15px 75px;
+}
+
+.gallery_img {
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 10%;
+    border-color: #90c0e2;
+    border-style: double;
+}
+
+.container_3 {
+    background-color: #e5e7eb;
+    padding: 50px;
+    text-align: center;
+}
+
+h3 {
+    padding: 25px 0 5px 0;
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote_name {
+    text-align: center;
+    padding-left: 375px;
+}
+
+.container_4 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #227fc2;
+    margin: 20px 150px;
+    padding: 25px 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+.container_4 button {
+    width: 70px;
+    background-color: #227fc2;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 2px;
+    border-radius: 10%;
+}
+.footer {
+    text-align: center;
+    background-color: #e5e7eb;
+}
